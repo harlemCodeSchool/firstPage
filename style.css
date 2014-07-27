@@ -1,0 +1,12 @@
+body {
+	background-color: dodgerblue;
+}
+
+h1 {
+	text-align: center; 
+	color: lightsteelblue; }
+
+body p { 
+	width: 60%;
+	margin-left: 20%;
+}
