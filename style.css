@@ -1,12 +1,48 @@
+/*  WELCOME TO THE CSS PAGE
+ A couple slashes and stars is all you need for CSS comments,
+ which is the same syntax for comments as multi-line comments in 
+ javascript.   */
+
+
+
+/* By just writing 'body', we refer to the element tag 'body', ie the whole 
+visible page.  */
+
 body {
 	background-color: dodgerblue;
+	margin: 0;
 }
 
-h1 {
-	text-align: center; 
-	color: lightsteelblue; }
 
 body p { 
 	width: 60%;
 	margin-left: 20%;
 }
+
+
+.colorBoxWrapper {
+	width: 100%;
+	margin-left: 4%;
+	height: 12%;
+}
+
+.colorBox {
+	display: inline-block;
+	width: 18%;
+	height: 100%;
+	color: white;
+	line-height: 3.35;
+	text-align: center;
+	box-shadow: 3px 3px 0px navy;
+}
+
+.colorBoxWrapper :nth-child(1){ background-color: lime; }
+.colorBoxWrapper :nth-child(2){ background-color: tomato; }
+.colorBoxWrapper :nth-child(3){ background-color: khaki; }
+.colorBoxWrapper :nth-child(4){ background-color: seagreen; }
+.colorBoxWrapper :nth-child(5){ background-color: yellowgreen; }
+
+
+h1 {
+	text-align: center; 
+	color: whitesmoke; }
