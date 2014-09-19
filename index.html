@@ -1,4 +1,5 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+<html>
 
 <!--  THIS IS A COMMENT AND WILL NOT BE READ AS CODE
 	WELCOME TO THE FIRST PAGE OF HARLEM CODE SCHOOL!
@@ -27,31 +28,47 @@ and Javascript pages that our HTML page needs to come to life. -->
  
 
  <head>
-<script src="./js.js"> </script>
+
 <link rel="stylesheet" type="text/css" href="style.css">
 
  </head>
 
  <body>
-
 	<h1>Welcome to Harlem Code School </h1>
+   	<div class="contentWrapper">
 
-	<p> Let this page serve as a nice starter reference for all your basic
-		programming! Whenever you forget how to do something basic you can
-		just come here and refresh your memory.  
-	</p>
+		<p> Let this page serve as a nice starter reference for all your basic
+			front end knowledge! Whenever you forget how to do something basic you can
+			just come here and refresh your memory.  
+		</p>
 
-	<p> Let's get rolling with some cool features of HTML and CSS. 
-		First let's check out some colors and shapes
-	</p>
+		<p> Let's get rolling with some cool features of HTML and CSS. 
+			First let's check out some colors and shapes
+		</p>
 
-
-	<div class="colorBoxWrapper">
-		<div class="colorBox"> Lime</div>
-		<div class="colorBox"> Tomato </div>
-		<div class="colorBox"> Khaki </div>
-		<div class="colorBox"> Sea Green </div>
-		<div class="colorBox"> Yellow Green </div>
-	</div>
-
+		<h3 class="hIndent">Cool Color and Visual Effects</h3>
+		<p> CSS has dozens of cool colors built in and lots of awesome
+		ways to make your page look 
+		<br>cooler too. For a better reference check out the CSS reference at <link>www.tizag.com</link> and <link>www.mdn.com</link>
+		</p>
+		<h4 class="hIndent">Some cool colors:</h5>
+		<div class="colorBoxWrapper">
+			<div class="colorBox"> Lime</div>
+			<div class="colorBox"> Tomato </div>
+			<div class="colorBox"> Khaki </div>
+			<div class="colorBox"> Sea Green </div>
+			<div class="colorBox"> Yellow Green </div>
+		</div>
+		<h3 class="hIndent">Box Shadow</h3>
+		<p>The boxes above all have a small amount of the css effect'box shadow' in use. To use it you can do 
+		<br> this in your .css file:
+		   <code><pre>
+		   .classToTarget{
+		   	     box-shadow: 3px 0px 3px 0px navy;
+		   	} 
+		   </pre></code>
+		</p>
+    </div>
 </body>
+<script src="./js.js"> </script>
+</html>
