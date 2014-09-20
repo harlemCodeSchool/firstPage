@@ -14,8 +14,8 @@ body {
 }
 
 
-body p { 
-	width: 75	%;
+.contentWrapper p { 
+	width: 75%;
 	margin-left: 10%;
 }
 
@@ -47,11 +47,28 @@ body p {
 
 
 .contentWrapper {
-	background-color: whitesmoke;
 	padding-bottom: 30%;
 	padding-top: 3%;
+	width: 80%;
+	margin: 0 auto;
+	background-color: whitesmoke;
+	border: 3px solid dimgray;
+	border-radius: 16px;
+}
+
+.contentWrapper > * {
+	color: black;
 }
 
 h1 {
 	text-align: center; 
-	color: whitesmoke; }
+	color: whitesmoke; 
+}
+
+.contentWrapper h1 {
+	border-bottom: 2px solid gray;
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 1%;
+	margin-bottom: 2%;
+}
